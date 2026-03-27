@@ -71,17 +71,16 @@ This repository now includes a File Transformation compatible bridge:
 How to use it with `IAmParadox27/jellyfin-plugin-file-transformation`:
 
 1. Install File Transformation from its manifest.
-2. Add `JellyfinAddonsWebTransform.cs` into your own Jellyfin .NET plugin project.
-3. Register a transformation payload (example in `payload.example.json`) using File Transformation's `RegisterTransformation` interface.
-4. Ensure Jellyfin serves this addon path:
-  - `/web/Resources/slider/modules/jellyfinAddonsBootstrap.js`
-  - plus the existing module files in the same folder.
-5. Restart Jellyfin.
+2. Build the included bridge plugin project:
+   - `Jellyfin.Plugin.JellyfinAddonsBridge/`
+3. Run the installer script from this repository root (PowerShell):
+   - `./install-bridge.ps1 -RestartJellyfin`
+4. Ensure File Transformation remains enabled in Jellyfin.
 
-The transformation injects one module script tag into `index.html` and prevents duplicate injection.
+The bridge auto-registers a transformation callback on startup and injects one module script tag into `index.html` while preventing duplicate injection.
 
-### Option 2: Using the Fetch Script
-
+A prebuilt bridge zip is generated at:
+- `dist/jellyfin-addons-bridge-1.0.0.zip`
 Run the provided `fetch-features.sh` script to automatically download all feature files from the source repository:
 
 ```bash

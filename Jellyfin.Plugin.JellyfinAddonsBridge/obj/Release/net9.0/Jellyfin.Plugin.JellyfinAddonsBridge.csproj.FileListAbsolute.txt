@@ -1,0 +1,15 @@
+C:\Users\INTER\OneDrive\المستندات\GitHub\z\jellyfin-addons\Jellyfin.Plugin.JellyfinAddonsBridge\bin\Release\net9.0\Jellyfin.Plugin.JellyfinAddonsBridge.deps.json
+C:\Users\INTER\OneDrive\المستندات\GitHub\z\jellyfin-addons\Jellyfin.Plugin.JellyfinAddonsBridge\bin\Release\net9.0\Jellyfin.Plugin.JellyfinAddonsBridge.dll
+C:\Users\INTER\OneDrive\المستندات\GitHub\z\jellyfin-addons\Jellyfin.Plugin.JellyfinAddonsBridge\bin\Release\net9.0\Jellyfin.Plugin.JellyfinAddonsBridge.pdb
+C:\Users\INTER\OneDrive\المستندات\GitHub\z\jellyfin-addons\Jellyfin.Plugin.JellyfinAddonsBridge\bin\Release\net9.0\Jellyfin.Plugin.JellyfinAddonsBridge.xml
+C:\Users\INTER\OneDrive\المستندات\GitHub\z\jellyfin-addons\Jellyfin.Plugin.JellyfinAddonsBridge\obj\Release\net9.0\Jellyfin.Plugin.JellyfinAddonsBridge.csproj.AssemblyReference.cache
+C:\Users\INTER\OneDrive\المستندات\GitHub\z\jellyfin-addons\Jellyfin.Plugin.JellyfinAddonsBridge\obj\Release\net9.0\Jellyfin.Plugin.JellyfinAddonsBridge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\INTER\OneDrive\المستندات\GitHub\z\jellyfin-addons\Jellyfin.Plugin.JellyfinAddonsBridge\obj\Release\net9.0\Jellyfin.Plugin.JellyfinAddonsBridge.AssemblyInfoInputs.cache
+C:\Users\INTER\OneDrive\المستندات\GitHub\z\jellyfin-addons\Jellyfin.Plugin.JellyfinAddonsBridge\obj\Release\net9.0\Jellyfin.Plugin.JellyfinAddonsBridge.AssemblyInfo.cs
+C:\Users\INTER\OneDrive\المستندات\GitHub\z\jellyfin-addons\Jellyfin.Plugin.JellyfinAddonsBridge\obj\Release\net9.0\Jellyfin.Plugin.JellyfinAddonsBridge.csproj.CoreCompileInputs.cache
+C:\Users\INTER\OneDrive\المستندات\GitHub\z\jellyfin-addons\Jellyfin.Plugin.JellyfinAddonsBridge\obj\Release\net9.0\Jellyfin.Plugin.JellyfinAddonsBridge.sourcelink.json
+C:\Users\INTER\OneDrive\المستندات\GitHub\z\jellyfin-addons\Jellyfin.Plugin.JellyfinAddonsBridge\obj\Release\net9.0\Jellyfin.Plugin.JellyfinAddonsBridge.dll
+C:\Users\INTER\OneDrive\المستندات\GitHub\z\jellyfin-addons\Jellyfin.Plugin.JellyfinAddonsBridge\obj\Release\net9.0\refint\Jellyfin.Plugin.JellyfinAddonsBridge.dll
+C:\Users\INTER\OneDrive\المستندات\GitHub\z\jellyfin-addons\Jellyfin.Plugin.JellyfinAddonsBridge\obj\Release\net9.0\Jellyfin.Plugin.JellyfinAddonsBridge.xml
+C:\Users\INTER\OneDrive\المستندات\GitHub\z\jellyfin-addons\Jellyfin.Plugin.JellyfinAddonsBridge\obj\Release\net9.0\Jellyfin.Plugin.JellyfinAddonsBridge.pdb
+C:\Users\INTER\OneDrive\المستندات\GitHub\z\jellyfin-addons\Jellyfin.Plugin.JellyfinAddonsBridge\obj\Release\net9.0\ref\Jellyfin.Plugin.JellyfinAddonsBridge.dll

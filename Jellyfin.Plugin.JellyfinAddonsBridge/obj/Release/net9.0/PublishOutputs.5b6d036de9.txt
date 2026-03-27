@@ -1,0 +1,5 @@
+C:\Users\INTER\OneDrive\المستندات\GitHub\z\jellyfin-addons\Jellyfin.Plugin.JellyfinAddonsBridge\bin\Release\net9.0\publish\Jellyfin.Plugin.JellyfinAddonsBridge.dll
+C:\Users\INTER\OneDrive\المستندات\GitHub\z\jellyfin-addons\Jellyfin.Plugin.JellyfinAddonsBridge\bin\Release\net9.0\publish\Jellyfin.Plugin.JellyfinAddonsBridge.deps.json
+C:\Users\INTER\OneDrive\المستندات\GitHub\z\jellyfin-addons\Jellyfin.Plugin.JellyfinAddonsBridge\bin\Release\net9.0\publish\Jellyfin.Plugin.JellyfinAddonsBridge.pdb
+C:\Users\INTER\OneDrive\المستندات\GitHub\z\jellyfin-addons\Jellyfin.Plugin.JellyfinAddonsBridge\bin\Release\net9.0\publish\Newtonsoft.Json.dll
+C:\Users\INTER\OneDrive\المستندات\GitHub\z\jellyfin-addons\Jellyfin.Plugin.JellyfinAddonsBridge\bin\Release\net9.0\publish\Jellyfin.Plugin.JellyfinAddonsBridge.xml

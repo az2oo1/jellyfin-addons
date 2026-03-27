@@ -1,0 +1,7 @@
+{
+  "id": "9d9c53db-3a90-42e4-a792-1435950d993c",
+  "fileNamePattern": "index\\.html$",
+  "callbackAssembly": "YourPluginAssemblyName",
+  "callbackClass": "JellyfinAddons.FileTransformation.JellyfinAddonsWebTransform",
+  "callbackMethod": "InjectBootstrap"
+}

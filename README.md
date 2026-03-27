@@ -60,6 +60,26 @@ This catalog points to the ZIP release asset:
 
 https://github.com/az2oo1/jellyfin-addons/releases/download/v1.0.0/jellyfin-addons-1.0.0.zip
 
+### File Transformation Compatibility
+
+This repository now includes a File Transformation compatible bridge:
+
+- Bootstrap loader: `Resources/slider/modules/jellyfinAddonsBootstrap.js`
+- Transformation callback source: `file-transformation/JellyfinAddonsWebTransform.cs`
+- Payload template: `file-transformation/payload.example.json`
+
+How to use it with `IAmParadox27/jellyfin-plugin-file-transformation`:
+
+1. Install File Transformation from its manifest.
+2. Add `JellyfinAddonsWebTransform.cs` into your own Jellyfin .NET plugin project.
+3. Register a transformation payload (example in `payload.example.json`) using File Transformation's `RegisterTransformation` interface.
+4. Ensure Jellyfin serves this addon path:
+  - `/web/Resources/slider/modules/jellyfinAddonsBootstrap.js`
+  - plus the existing module files in the same folder.
+5. Restart Jellyfin.
+
+The transformation injects one module script tag into `index.html` and prevents duplicate injection.
+
 ### Option 2: Using the Fetch Script
 
 Run the provided `fetch-features.sh` script to automatically download all feature files from the source repository:

@@ -8,12 +8,12 @@
     "category": "General",
     "versions": [
       {
-        "version": "1.0.0.0",
-        "changelog": "Initial release via File Transformation",
+        "version": "1.0.0.1",
+        "changelog": "Fixed startup hang by converting to BackgroundService",
         "targetAbi": "10.11.3.0",
-        "sourceUrl": "https://github.com/az2oo1/jellyfin-addons/releases/download/v1.0.0/jellyfin-addons-bridge-1.0.0.zip",
-        "checksum": "120d1ba500aee310c3d5381bd3da1b75",
-        "timestamp": "2026-03-27T00:00:00Z"
+        "sourceUrl": "https://github.com/az2oo1/jellyfin-addons/releases/download/v1.0.1/jellyfin-addons-bridge-1.0.1.zip",
+        "checksum": "27B725B652BC18C4DB0BA4490BD44792",
+        "timestamp": "2026-03-27T01:00:00Z"
       }
     ]
   }

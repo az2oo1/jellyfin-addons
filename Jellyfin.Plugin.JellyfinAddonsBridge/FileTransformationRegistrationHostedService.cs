@@ -9,7 +9,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Jellyfin.Plugin.JellyfinAddonsBridge;
 
-public class FileTransformationRegistrationHostedService : IHostedService
+public class FileTransformationRegistrationHostedService : BackgroundService
 {
     private static readonly Guid TransformationId = Guid.Parse("9d9c53db-3a90-42e4-a792-1435950d993c");
     private readonly ILogger<FileTransformationRegistrationHostedService> _logger;
@@ -19,10 +19,10 @@ public class FileTransformationRegistrationHostedService : IHostedService
         _logger = logger;
     }
 
-    public async Task StartAsync(CancellationToken cancellationToken)
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
         // Retry for a short window because plugin load order can vary.
-        for (var attempt = 1; attempt <= 20 && !cancellationToken.IsCancellationRequested; attempt++)
+        for (var attempt = 1; attempt <= 20 && !stoppingToken.IsCancellationRequested; attempt++)
         {
             if (TryRegister())
             {
@@ -30,15 +30,10 @@ public class FileTransformationRegistrationHostedService : IHostedService
                 return;
             }
 
-            await Task.Delay(TimeSpan.FromSeconds(3), cancellationToken);
+            await Task.Delay(TimeSpan.FromSeconds(3), stoppingToken);
         }
 
         _logger.LogWarning("[JellyfinAddonsBridge] Could not register transformation. Ensure File Transformation plugin is installed and enabled.");
-    }
-
-    public Task StopAsync(CancellationToken cancellationToken)
-    {
-        return Task.CompletedTask;
     }
 
     private bool TryRegister()

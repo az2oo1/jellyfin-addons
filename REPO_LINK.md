@@ -9,7 +9,7 @@ If Jellyfin supports custom plugin repositories:
 
 2. **Add Custom Repository**
    - Click "Add Repository"
-   - Paste: `https://raw.githubusercontent.com/INTER-Mediator/jellyfin-addons/main/repository.json`
+   - Paste: `https://raw.githubusercontent.com/az2oo1/jellyfin-addons/main/repository.json`
 
 3. **Install Plugin**
    - Search for "Jellyfin Addons"
@@ -34,7 +34,7 @@ If repository method doesn't work:
 
 1. **Download the plugin package:**
    ```
-   https://github.com/INTER-Mediator/jellyfin-addons/releases
+   https://github.com/az2oo1/jellyfin-addons/releases
    ```
 
 2. **Extract to Jellyfin plugin directory:**
@@ -51,7 +51,7 @@ If repository method doesn't work:
 For developers or testing:
 
 ```bash
-git clone https://github.com/INTER-Mediator/jellyfin-addons.git
+git clone https://github.com/az2oo1/jellyfin-addons.git
 cd jellyfin-addons
 # Copy Resources/slider/modules to your Jellyfin web directory
 ```
@@ -76,8 +76,8 @@ Each feature will have its own settings panel.
 
 ## Repository Information
 
-- **GitHub:** https://github.com/INTER-Mediator/jellyfin-addons
-- **Repository Index:** https://raw.githubusercontent.com/INTER-Mediator/jellyfin-addons/main/repository.json
+- **GitHub:** https://github.com/az2oo1/jellyfin-addons
+- **Repository Index:** https://raw.githubusercontent.com/az2oo1/jellyfin-addons/main/repository.json
 - **License:** MIT
 - **Compatible with:** Jellyfin 10.0+
 
